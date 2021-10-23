@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+/* estilo do título */
+    h1 {
+        font-size: 34px;
+        text-align: center;
+      }
+
+
+/* estilo do parágrafo */
+        p {
+font-size: 18px;
+        line-height: 2;
+        letter-spacing: 1px;
+    text-align: justify; 
+text-indent: 50px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    border-radius: 50px;
+    border: 5px solid #2da72d;
+    padding-bottom: 13px;
+    margin-bottom: 15px;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+	display: block;
+    font-family: 'Open Sans', sans-serif;
+    width: 360px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 3px solid #2da72d;
+    border-radius: 50px;
+}
+
+.enviar {
+    /* Deixa o botão enviar na mesma posição dos campos de texto */
+    padding-left: 90px;
+    /* mesmo tamanho que os elementos do tipo label */
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 160, 30);
+}
+
+select {
+	display: block;
+    font-family: 'Open Sans', sans-serif;
+    width: 360px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 3px solid #2da72d;
+    border-radius: 50px;
+}
+footer#footer {
+    clear: both;
+    border-top: 1px solid rgb(47, 78, 46);
+    margin: 10px;
+ background-color: #b31e1e;
+}
+
+footer#footer p {
+    font-weight: bolder;
+text-align: center;
+}
