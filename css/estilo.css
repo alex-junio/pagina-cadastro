@@ -57,19 +57,15 @@ input {
     border-radius: 50px;
 }
 
-.enviar {
-    /* Deixa o botão enviar na mesma posição dos campos de texto */
-    display: inline-block;
-    text-align: center;
-    padding-left: 90px;
-    /* mesmo tamanho que os elementos do tipo label */
-    width: 360px;
-}
 
-button {
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
-    margin-left: .5em;
-    background-color: #87cefa;
+#enviar{
+background-color: #87cefa;
+    width: 100%; 
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
 }
 
 select {
