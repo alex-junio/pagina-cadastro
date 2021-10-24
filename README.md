@@ -17,7 +17,7 @@ Os demais campos (RG, Sexo, Complemento, E-mail e Telefone residencial) são opc
 A página é desenvolvida em HTML, contando com recursos de CSS para aplicar alguns estilos e formatações.
 Além disso, são utilizados alguns códigos em javascript para realizar validação e/ou aplicar máscaras em alguns campos, como por exemplo o formato xxx.xxx.xxx-xx no CPF.
 
-Para os campos referentes ao endereço, ao informar o CEP, um código javascript faz o acesso ao webservice do ViaCEP com a biblioteca jQuery/Json e, se localizar o CEP informado, faz o preenchimento automático.
+Para os campos referentes ao endereço, ao informar o CEP, um código javascript faz o acesso ao webservice do ViaCEP com a biblioteca jQuery/Json e, se localizar o CEP informado, faz o preenchimento automático dos campos rua, bairro, cidade e estado.
 
 É feita a validação no CPF, para que não seja possível informar um valor inválido, caso isso aconteça, o conteúdo do campo é apagado.
 
