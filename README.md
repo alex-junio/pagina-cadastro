@@ -23,7 +23,7 @@ Para os campos referentes ao endereço, ao informar o CEP, um código javascript
 
 Um código simples em javascript também foi criado para que, ao clicar no botão enviar, seja exibida uma mensagem ao usuário, informando que o cadastro foi realizado.
 
-Para melhor organização, os arquivos .js e a css são arquivos externos, que foram linkados no código da página.
+Para melhor organização, os arquivos .js e a CSS são arquivos externos, que foram linkados no código da página.
 
 Sobre o uso da CSS, é importante ressaltar que como a página foi desenvolvida por uma pessoa com deficiência visual, inicialmente foi feita uma estilização básica e, com auxílio de conteúdos encontrados na internet, tentou-se deixar o formulário mais apresentável.
 Foram feitas alterações com base em modelos e exemplos encontrados, mas uma parte permanece fiel ao original, incluindo-se aí os comentários, já que é um conteúdo que será aprofundado.
