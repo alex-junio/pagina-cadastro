@@ -33,8 +33,10 @@ Foram feitas alterações com base em modelos e exemplos encontrados, mas uma pa
 [Meu primeiro formulário HTML - Aprendendo desenvolvimento web | MDN][2]
 [Validar CPF com JavaScript][3]
 [Customizando formulários com CSS][4]
+[https://encycolorpedia.pt/][5]
 
 [1]: https://viacep.com.br/exemplo/jquery/
 [2]: https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Your_first_form
 [3]: https://www.devmedia.com.br/validar-cpf-com-javascript/23916
 [4]: https://www.devmedia.com.br/customizando-formularios-com-css/37212
+[5]: https://encycolorpedia.pt/%2079%25%20intensidade.
