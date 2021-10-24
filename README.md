@@ -29,11 +29,11 @@ Sobre o uso da CSS, é importante ressaltar que como a página foi desenvolvida 
 Foram feitas alterações com base em modelos e exemplos encontrados, mas uma parte permanece fiel ao original, incluindo-se aí os comentários, já que é um conteúdo que será aprofundado.
 
 ### Fontes
-[Script para buscar e preencher as informações com base no CEP][1]
-[Meu primeiro formulário HTML - Aprendendo desenvolvimento web | MDN][2]
-[Validar CPF com JavaScript][3]
-[Customizando formulários com CSS][4]
-[https://encycolorpedia.pt/][5]
+* [Script para buscar e preencher as informações com base no CEP][1]
+* [Meu primeiro formulário HTML - Aprendendo desenvolvimento web | MDN][2]
+* [Validar CPF com JavaScript][3]
+* [Customizando formulários com CSS][4]
+* [https://encycolorpedia.pt/][5]
 
 [1]: https://viacep.com.br/exemplo/jquery/
 [2]: https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Your_first_form
