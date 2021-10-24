@@ -10,6 +10,7 @@ A página irá conter os seguintes campos de preenchimento obrigatório:
 * CPF
 * Campos referentes ao endereço, com exceção do complemento, que será opcional
 * Celular
+
 Os demais campos (RG, Sexo, Complemento, E-mail e Telefone residencial) são opcionais
 
 ### Desenvolvimento
