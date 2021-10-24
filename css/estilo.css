@@ -59,8 +59,11 @@ input {
 
 .enviar {
     /* Deixa o botão enviar na mesma posição dos campos de texto */
+    display: inline-block;
+    text-align: center;
     padding-left: 90px;
     /* mesmo tamanho que os elementos do tipo label */
+    width: 360px;
 }
 
 button {
