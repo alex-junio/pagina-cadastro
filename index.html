@@ -7,10 +7,8 @@
     <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
     <title>Página de cadastro</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 </head>
 
 <body>
@@ -18,84 +16,84 @@
     <p>Seja bem-vindo(a)!</p>
     <p>Para prosseguir com seu cadastro, preencha todos os campos com atenção.</p>
 
-    <form id="formulario" action="/processa-dados" method="post" onsubmit="return enviaForm(); FormSubmit(this);" autocomplete="off">
+    <form id="formulario" method="post" onsubmit="return enviaForm(); FormSubmit(this);" autocomplete="off">
         <fieldset>
             <h2> Dados pessoais </h2>
             <div>
-			<label for="nome"> Nome: </label>
-            <input type="text" name="nome" id="nome" required>
-			</div>
-<div>
-<label for="cpf"> CPF: </label>
-<input type="text" name="CPF" id="cpf" required onblur="TestaCPF(this)">
-</div>
-<div>
-<label for="rg"> RG: </label>
-<input type="text" name="RG" id="rg">
-</div>
-<div>
-<label for="sexo"> Sexo: </label>
-<select name="sexo" id="sexo">
+                <label for="nome"> Nome: </label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="cpf"> CPF: </label>
+                <input type="text" name="CPF" id="cpf" required onblur="TestaCPF(this)">
+            </div>
+            <div>
+                <label for="rg"> RG: </label>
+                <input type="text" name="RG" id="rg">
+            </div>
+            <div>
+                <label for="sexo"> Sexo: </label>
+                <select name="sexo" id="sexo">
 <option> - Selecione... - </option>
 <option> Feminino </option>
 <option> Masculino </option>
 <option> Outro </option>
 </select>
-</div>
-<h2> Endereço</h2>
-        <div>
-		<label for="cep"> CEP: </label>
-<input type="text" name="cep" id="cep" required>
-</div>
-<div>
-<label for="rua"> Rua: </label>
-<input type="text" name="rua" id="rua" required>
-</div>
-<div>
-<label for="numero"> Número: </label>
-<input type="text" name="numero" id="numero" required>
-</div>
-<div>
-<label for="complemento"> Complemento: </label>
-<input type="text" name="complemento" id="complemento">
-</div>
-<div>
-<label for="bairro"> Bairro: </label>
-<input type="text" name="bairro" id="bairro" required>
-</div>
-<div>
-<label for="cidade"> Cidade: </label>
-<input type="text" name="cidade" id="cidade" required>
-</div>
-<div>
-<label for="estado"> Estado: </label>
-<input type="text" name="estado" id="estado" required>
-</div>
-<h2> Contatos </h2>
-<div>
-<label for="email"> E-mail: </label>
-<input type="email" name="email" id="email">
-</div>
-<div>
-<label for="telefone"> Telefone residencial: </label>
-<input type="text" name="telefone" id="telefone">
-</div>
-<div>
-<label for="celular"> Celular: </label>
-<input type="text" name="celular" id="celular" required>
-</div>
-<div>
-<input type="submit" name="Enviar" id="enviar" value="Enviar">
-</div>
-</fieldset>
+            </div>
+            <h2> Endereço</h2>
+            <div>
+                <label for="cep"> CEP: </label>
+                <input type="text" name="cep" id="cep" required>
+            </div>
+            <div>
+                <label for="rua"> Rua: </label>
+                <input type="text" name="rua" id="rua" required>
+            </div>
+            <div>
+                <label for="numero"> Número: </label>
+                <input type="text" name="numero" id="numero" required>
+            </div>
+            <div>
+                <label for="complemento"> Complemento: </label>
+                <input type="text" name="complemento" id="complemento">
+            </div>
+            <div>
+                <label for="bairro"> Bairro: </label>
+                <input type="text" name="bairro" id="bairro" required>
+            </div>
+            <div>
+                <label for="cidade"> Cidade: </label>
+                <input type="text" name="cidade" id="cidade" required>
+            </div>
+            <div>
+                <label for="estado"> Estado: </label>
+                <input type="text" name="estado" id="estado" required>
+            </div>
+            <h2> Contatos </h2>
+            <div>
+                <label for="email"> E-mail: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="telefone"> Telefone residencial: </label>
+                <input type="text" name="telefone" id="telefone">
+            </div>
+            <div>
+                <label for="celular"> Celular: </label>
+                <input type="text" name="celular" id="celular" required>
+            </div>
+            <div>
+                <input type="submit" name="Enviar" id="enviar" value="Enviar">
+            </div>
+        </fieldset>
 
     </form>
 
-<footer id="footer">
-<p>Página desenvolvida por Alex Junio</p>
-</footer>
+    <footer id="footer">
+        <p>Página desenvolvida por Alex Junio</p>
+    </footer>
 
-<script type="text/javascript" src="js/alerta.js"></script>
+    <script type="text/javascript" src="js/alerta.js"></script>
     <script type="text/javascript" src="js/mascara.js"></script>
     <script type="text/javascript" src="js/validacep.js"></script>
     <script type="text/javascript" src="js/valida cpf.js"></script>

@@ -1,27 +1,31 @@
 @charset "UTF-8";
 
 /* corpo da página */
+
 body {
-background-color: #add8e6;
+    background-color: #add8e6;
 }
 
+
 /* estilo do título */
-    h1 {
-        font-size: 34px;
-        text-align: center;
-      }
+
+h1 {
+    font-size: 34px;
+    text-align: center;
+}
 
 
 /* estilo do parágrafo */
-        p {
-font-size: 18px;
-        line-height: 2;
-        letter-spacing: 1px;
-    text-align: justify; 
+
+p {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 fieldset {
-      border: none;
+    border: none;
 }
 
 form {
@@ -47,7 +51,7 @@ label {
 }
 
 input {
-	display: block;
+    display: block;
     font-family: 'Open Sans', sans-serif;
     width: 360px;
     -moz-box-sizing: border-box;
@@ -57,10 +61,9 @@ input {
     border-radius: 50px;
 }
 
-
-#enviar{
-background-color: #87cefa;
-    width: 100%; 
+#enviar {
+    background-color: #87cefa;
+    width: 100%;
     border: none;
     padding: 15px;
     color: white;
@@ -69,7 +72,7 @@ background-color: #87cefa;
 }
 
 select {
-	display: block;
+    display: block;
     font-family: 'Open Sans', sans-serif;
     width: 360px;
     -moz-box-sizing: border-box;
@@ -78,15 +81,16 @@ select {
     border: 3px solid #87cefa;
     border-radius: 50px;
 }
+
 footer#footer {
     clear: both;
     border-top: 1px solid #87cefa;
     margin: 10px;
- background-color: #87cefa;
+    background-color: #87cefa;
 }
 
 footer#footer p {
-font-size: 16px;
+    font-size: 16px;
     font-weight: bolder;
-text-align: center;
+    text-align: center;
 }
